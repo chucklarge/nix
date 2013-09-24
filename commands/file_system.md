@@ -90,6 +90,12 @@ cription: ATA Disk
 
 <code>
 sudo fdisk /dev/sdd
+</code>
+
+<code>
 sudo mkfs.ext4 /dev/sdd1
+</code>
+
+<code>
 sudo tune2fs -m 0 /dev/sdd1
 </code>
