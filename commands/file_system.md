@@ -83,6 +83,8 @@ cription: ATA Disk
        configuration: ansiversion=5 signature=3bda2f9f
 </pre>
 
+<pre>
 sudo fdisk /dev/sdd
 sudo mkfs.ext4 /dev/sdd1
 sudo tune2fs -m 0 /dev/sdd1
+</pre>
