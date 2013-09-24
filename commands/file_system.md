@@ -1,4 +1,6 @@
+<code>
 chuck@atombomb:~$ cat /etc/fstab
+</code>
 <pre>
 # /etc/fstab: static file system information.
 #
@@ -21,7 +23,10 @@ UUID=06192c5d-6e46-48a1-b649-0bf8b8128fc3 none            swap    sw            
 /dev/sde1 /media/download ext4 noatime,data=writeback 0 3
 </pre>
 
+<code>
 chuck@atombomb:~$ sudo lshw -C disk
+</code>
+
 <pre>
 cription: ATA Disk
        product: WDC WD1600BEVE-0
@@ -83,8 +88,8 @@ cription: ATA Disk
        configuration: ansiversion=5 signature=3bda2f9f
 </pre>
 
-<pre>
+<code>
 sudo fdisk /dev/sdd
 sudo mkfs.ext4 /dev/sdd1
 sudo tune2fs -m 0 /dev/sdd1
-</pre>
+</code>
