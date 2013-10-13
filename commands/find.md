@@ -1,0 +1,7 @@
+Find all directories named 'events'    
+
+    find . -name "events"
+
+-print0 : don't print newline after each result
+
+    find . -maxdepth 2 -name "File*txt" -print0
