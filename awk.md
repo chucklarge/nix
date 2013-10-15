@@ -5,3 +5,7 @@ sum a column
 print as money USD
 
     awk '{printf "$%.2f\n",$1}'
+    
+sample data
+    
+    awk 'BEGIN { srand(systime()); } {if (rand() < 0.3) { print $0; } }' data.csv
