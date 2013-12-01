@@ -11,4 +11,4 @@
 
 all lower to upper
 
-   rename 'y/A-Z/a-z/' *
+    rename 'y/A-Z/a-z/' *
