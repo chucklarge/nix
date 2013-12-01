@@ -7,3 +7,8 @@
     [ www.Speed.Cd ] - Louie.S03E05.720p.HDTV.X264-DIMENSION
 
     rename 's/\[\ www.Speed.Cd\ \]\ \-\ //g' *
+
+
+all lower to upper
+
+   rename 'y/A-Z/a-z/' *
