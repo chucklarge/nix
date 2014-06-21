@@ -1,6 +1,7 @@
 sum a column
 
-    awk 'BEGIN {sum=0} {sum= sum+$0; print sum}' | tail -1
+    seq 10 | awk 'BEGIN {sum=0} {sum+=$0} END {print sum}'
+    seq 10 | awk '{sum+=$0} END {print sum}'
     
 print as money USD
 
