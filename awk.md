@@ -4,9 +4,10 @@ sum a column
     seq 10 | awk '{sum+=$0} END {print sum}'
     
     
-    average a column
+average a column
 
     seq 10 | awk '{sum+=$0} END {print sum/NR}'
+    
     
     
 print number of lines
