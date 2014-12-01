@@ -89,13 +89,22 @@ cription: ATA Disk
 </pre>
 
 <code>
-sudo fdisk /dev/sdd
+#sudo fdisk /dev/sdc
+
+parted /dev/sdc
+(parted) mklabel gpt
+(parted) unit TB
+(parted) mkpart primary 0.00TB 6.00TB
+(parted) print
+(parted) quit
+sudo mkfs.ext4 /dev/sdc1 
+sudo tune2fs -m 0 /dev/sdc1
 </code>
 
 <code>
-sudo mkfs.ext4 /dev/sdd1
+sudo mkfs.ext4 /dev/sdc1
 </code>
 
 <code>
-sudo tune2fs -m 0 /dev/sdd1
+sudo tune2fs -m 0 /dev/sdc1
 </code>
