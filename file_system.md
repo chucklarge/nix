@@ -90,7 +90,6 @@ cription: ATA Disk
 
 <code>
 #sudo fdisk /dev/sdc
-
 parted /dev/sdc
 (parted) mklabel gpt
 (parted) unit TB
