@@ -88,7 +88,7 @@ cription: ATA Disk
        configuration: ansiversion=5 signature=3bda2f9f
 </pre>
 
-<code>
+<pre>
 --sudo fdisk /dev/sdc
 parted /dev/sdc
 (parted) mklabel gpt
@@ -98,12 +98,12 @@ parted /dev/sdc
 (parted) quit
 sudo mkfs.ext4 /dev/sdc1 
 sudo tune2fs -m 0 /dev/sdc1
-</code>
+</pre>
 
-<code>
+<pre>
 sudo mkfs.ext4 /dev/sdc1
-</code>
+</pre>
 
-<code>
+<pre>
 sudo tune2fs -m 0 /dev/sdc1
-</code>
+</pre>
