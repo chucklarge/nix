@@ -1,10 +1,10 @@
-cat a.txt
-a
-b
-c
-d
-e
-f
+    cat a.txt
+    a
+    b
+    c
+    d
+    e
+    f
 
 cat b.txt
 d
