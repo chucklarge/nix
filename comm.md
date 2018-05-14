@@ -34,3 +34,8 @@ in b but not in a
     g
     h
     i
+
+
+unsorted 
+
+    comm -13 <(sort a.txt) <(sort b.txt)
