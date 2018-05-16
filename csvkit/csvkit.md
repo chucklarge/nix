@@ -6,3 +6,6 @@ https://csvkit.readthedocs.org/en/latest/
 
     csvgrep -c 1 -r "^2013" ./sales.csv | csvstat -c 2 --sum
     743.07
+
+
+https://onlinecsvtools.com/
