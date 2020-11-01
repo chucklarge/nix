@@ -28,3 +28,6 @@ sample data
 conditionals
 
     awk -F, '(($2 != "active" || $3 == "frozen") && $4 == "no_ato") {print $1}' ato.csv
+
+ignore first two lines
+    awk 'NR > 2' file.csv
