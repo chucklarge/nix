@@ -7,3 +7,6 @@ http://stedolan.github.com/jq/
     curl -s https://reports.com?report=8285601801 | jq -r '.results[] | .id + " " + .first + " " + .last + " " + .title'
 
     jq '[.[] | select(.task_id == "786927230688")][0] | .body_plain' file.json
+    
+    jq '[.[] | select(.task_id == "789024359900") | .body_plain][0]' file.json // alternative
+   
