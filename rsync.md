@@ -1,4 +1,4 @@
-# rsync -avhW --no-compress --progress /src/ /dst/
+    rsync -avhW --no-compress --progress /src/ /dst/
 
 -a is for archive, which preserves ownership, permissions etc.
 -v is for verbose, so I can see what's happening (optional)
